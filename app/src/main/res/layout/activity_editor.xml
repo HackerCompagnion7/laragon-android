@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_editor"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <EditText
+        android:id="@+id/et_editor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top|start"
+        android:padding="12dp"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        android:background="@null"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:scrollHorizontally="true"
+        android:scrollbars="vertical|horizontal"
+        android:hint="Start typing or select a file..." />
+
+</LinearLayout>

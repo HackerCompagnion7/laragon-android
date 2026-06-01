@@ -1,0 +1,6 @@
+#!/bin/bash
+# This is a STUB placeholder. Replace this file with the actual php-cgi binary.
+# Run ./download_php_binary.sh to download or get instructions.
+# The app will detect this is not a real binary and show an error message.
+echo "STUB: php-cgi binary not installed. Run download_php_binary.sh first."
+exit 1

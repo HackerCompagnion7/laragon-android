@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Laragon Android</string>
+    <string name="server_notification_channel">Servidor Laragon</string>
+    <string name="notification_server_running">Server is running</string>
+    <string name="notification_server_stopped">Server stopped</string>
+    <string name="btn_start_server">Start Server</string>
+    <string name="btn_stop_server">Stop Server</string>
+    <string name="btn_preview">Preview</string>
+    <string name="btn_select_folder">Select Folder</string>
+    <string name="btn_select_file">Select File</string>
+    <string name="btn_create_project">Create Project</string>
+    <string name="title_diagnostics">Diagnostics</string>
+    <string name="title_editor">Editor</string>
+    <string name="title_preview">Preview</string>
+    <string name="hint_editor">Start typing or select a file…</string>
+    <string name="msg_no_folder">Please select a project folder first</string>
+    <string name="msg_server_not_running">Start the server first</string>
+    <string name="msg_project_created">Project created!</string>
+    <string name="msg_file_saved">File saved</string>
+    <string name="msg_unsaved_changes">Unsaved changes</string>
+</resources>
