@@ -1,0 +1,31 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Java/Kotlin
+*.class
+*.kt.swp
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.gradle/
+build/
+local.properties
+
+# NDK
+obj/
+.cxx/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Signing
+*.jks
+*.keystore
+
+# PHP binary (too large for git)
+app/src/main/assets/bin/php/arm64/php-cgi
